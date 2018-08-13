@@ -2,8 +2,66 @@
 <html>
 <head>
 	<title>7 Habitos</title>
+	<script type="text/javascript" src="public/js/navegacion.js"></script>
+	<script type="text/javascript" src="public/js/interaccion.js"></script>
+	<link rel="stylesheet" type="text/css" href="public/css/estilosInteraccion.css">
 </head>
 <body>
-	<h1>Actividad</h1>
+	<div id="instrucciones">
+		<h1>Actividad</h1>
+
+		<h2>Relaciona las columnas</h2>
+		<p>Arrastra el principio hacia el hábito con el que tenga más relación</p>
+	</div>
+
+	<div id="columna1">
+		<div id="principio4" ondrop="dejar(event)" ondragover="permitirDejar(event)">
+			<p draggable="true" ondragstart="arrastrar(event)" id="drag4" width="88" height="31">la afirmación de los demás</p>
+		</div>
+		<div id="principio7" ondrop="dejar(event)" ondragover="permitirDejar(event)">
+			<p draggable="true" ondragstart="arrastrar(event)" id="drag7" width="88" height="31">la renovación y mejora personal</p>
+		</div>
+		<div id="principio2" ondrop="dejar(event)" ondragover="permitirDejar(event)">
+			<p draggable="true" ondragstart="arrastrar(event)" id="drag2" width="88" height="31">el altruismo</p>
+		</div>
+		<div id="principio3" ondrop="dejar(event)" ondragover="permitirDejar(event)">
+			<p draggable="true" ondragstart="arrastrar(event)" id="drag3" width="88" height="31">ser optimista y positivo</p>
+		</div>
+		<div id="principio1" ondrop="dejar(event)" ondragover="permitirDejar(event)">
+			<p draggable="true" ondragstart="arrastrar(event)" id="drag1" width="88" height="31">el aprendizaje continuo y reeducación personal</p>
+		</div>
+		<div id="principio6" ondrop="dejar(event)" ondragover="permitirDejar(event)">
+			<p draggable="true" ondragstart="arrastrar(event)" id="drag6" width="88" height="31">la espontaneidad y la casualidad</p>
+		</div>
+		<div id="principio5" ondrop="dejar(event)" ondragover="permitirDejar(event)">
+			<p draggable="true" ondragstart="arrastrar(event)" id="drag5" width="88" height="31">el equilibrio</p>
+		</div>
+	</div>
+
+	<div id="columna2">
+		<div id="habito1" ondrop="dejar(event)" ondragover="permitirDejar(event)">
+			<p><b>Ser proactivo</b></p>
+		</div>
+		<div id="habito2" ondrop="dejar(event)" ondragover="permitirDejar(event)">
+			<p><b>Comenzar con un fin en mente</b></p>
+		</div>
+		<div id="habito3" ondrop="dejar(event)" ondragover="permitirDejar(event)">
+			<p><b>Poner primero lo primero</b></p>
+		</div>
+		<div id="habito4" ondrop="dejar(event)" ondragover="permitirDejar(event)">
+			<p><b>Pensar ganar-ganar</b></p>
+		</div>
+		<div id="habito5" ondrop="dejar(event)" ondragover="permitirDejar(event)">
+			<p><b>Buscar primero entender, luego ser entendido</b></p>
+		</div>
+		<div id="habito6" ondrop="dejar(event)" ondragover="permitirDejar(event)">
+			<p><b>Sinergizar</b></p>
+		</div>
+		<div id="habito7" ondrop="dejar(event)" ondragover="permitirDejar(event)">
+			<p><b>Afilar la sierra</b></p>
+		</div>
+	</div>
+	<button onclick="irA('contenido')">Volver</button>
+	<button onclick="calificar()">Ver Resultado</button>
 </body>
 </html>
