@@ -33,7 +33,7 @@ function calificar()
 	{
 		if(hab1 == null)
 		{
-			document.getElementById('habito1').style.background = "rgba(10, 0, 50, 0.4)";
+			document.getElementById('habito1').style.background = "rgba(240, 181, 0, 0.4)";
 		}
 		else
 		{
@@ -48,7 +48,7 @@ function calificar()
 	{
 		if(hab2 == null)
 		{
-			document.getElementById('habito2').style.background = "rgba(10, 0, 50, 0.4)";
+			document.getElementById('habito2').style.background = "rgba(240, 181, 0, 0.4)";
 		}
 		else
 		{
@@ -63,7 +63,7 @@ function calificar()
 	{
 		if(hab3 == null)
 		{
-			document.getElementById('habito3').style.background = "rgba(10, 0, 50, 0.4)";
+			document.getElementById('habito3').style.background = "rgba(240, 181, 0, 0.4)";
 		}
 		else
 		{
@@ -78,7 +78,7 @@ function calificar()
 	{
 		if(hab4 == null)
 		{
-			document.getElementById('habito4').style.background = "rgba(10, 0, 50, 0.4)";
+			document.getElementById('habito4').style.background = "rgba(240, 181, 0, 0.4)";
 		}
 		else
 		{
@@ -93,7 +93,7 @@ function calificar()
 	{
 		if(hab5 == null)
 		{
-			document.getElementById('habito5').style.background = "rgba(10, 0, 50, 0.4)";
+			document.getElementById('habito5').style.background = "rgba(240, 181, 0, 0.4)";
 		}
 		else
 		{
@@ -108,7 +108,7 @@ function calificar()
 	{
 		if(hab6 == null)
 		{
-			document.getElementById('habito6').style.background = "rgba(10, 0, 50, 0.4)";
+			document.getElementById('habito6').style.background = "rgba(240, 181, 0, 0.4)";
 		}
 		else
 		{
@@ -123,7 +123,7 @@ function calificar()
 	{
 		if(hab7 == null)
 		{
-			document.getElementById('habito7').style.background = "rgba(10, 0, 50, 0.4)";
+			document.getElementById('habito7').style.background = "rgba(240, 181, 0, 0.4)";
 		}
 		else
 		{
